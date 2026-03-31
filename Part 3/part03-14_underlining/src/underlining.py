@@ -1,0 +1,6 @@
+while True:
+    user_str = input("Please type in a string: ")
+    if user_str == "":
+        break
+    print(user_str)
+    print("-" * len(user_str))
