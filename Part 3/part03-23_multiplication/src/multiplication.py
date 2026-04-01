@@ -1,0 +1,9 @@
+number = int(input("Please type in a number: "))
+oper1 = 1
+oper2 = 1
+while oper1 <= number:
+    while oper2 <= number:
+        print(f"{oper1} x {oper2} = {oper1 * oper2}")
+        oper2 += 1
+    oper1 += 1
+    oper2 = 1
